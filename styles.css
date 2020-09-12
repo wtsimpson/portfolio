@@ -48,12 +48,12 @@ header > h1 {
 
 nav li {
   float: left;
-  width: 33%;
+  width: 33.33%;
 }
 
 nav li a {
   display: block;
-  color: white;
+  color: rgb(211, 121, 47);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
