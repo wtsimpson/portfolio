@@ -36,10 +36,45 @@ header > h1 {
   padding-top: 16px;
 }
 
-/* Images */
+/* Navigation Styles */
+
+ nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(93, 99, 119);
+}
+
+nav li {
+  float: left;
+  width: 33%;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+	color: rgb(211, 121, 47);
+}
+
+nav ul li a:hover {
+	background-color: rgb(211, 121, 47);
+	color: lightgray;
+}
+
+/* Images Styles */
 
 img {
-  width: 150px;
+  display: block;
+  float: left;
+  margin: 15px 25px;
+  width: 130px;
 }
 
 /* Footer Styles */
