@@ -10,15 +10,30 @@ html {
 }
 
 body {
-  background: rgba(180, 180, 180, 0.28);
-  box-shadow: rgb(126, 126, 126) 5px 0px 15px,  rgb(126, 126, 126) -5px 0px 15px;
+  background: rgba(180, 180, 180, 0.3);
+  box-shadow: hsl(0, 0%, 55%) 5px 0px 15px,  hsl(0, 0%, 55%) -5px 0px 15px;
   border-left: 1px solid rgb(0, 0, 0);
   border-right: 1px solid rgb(0, 0, 0);
   height: 100%;   
-  margin: 10px auto;
+  margin: 0px auto;
   min-width: 320px;
   max-width: 1200px;   
   width: 100%;
+  font-size: 1.2em;
+}
+
+/* Header Styles */
+
+header h1 {
+  background: linear-gradient(to left bottom, rgb(211, 74, 11), rgb(211, 121, 47), rgb(240, 182, 57));
+  font-size: 2.5em;
+  padding: 10px;
+  text-align: center;
+  height: 60px;
+}
+
+header > h1 {
+  padding-top: 16px;
 }
 
 /* Images */
@@ -26,3 +41,5 @@ body {
 img {
   width: 150px;
 }
+
+/* Footer Styles */
