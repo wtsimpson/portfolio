@@ -88,15 +88,36 @@ article {
   display: block;
   float: right;
   margin-top: 32px;
-  margin-right: 212px;
+  width: 50%;
+  margin-right: 220px;
   border: 1px solid black;
   border-radius: 20px;
+  
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+
+  -moz-column-gap: 150px;
+  -webkit-column-gap: 15px;
+  column-gap: 15px;
+
+  -moz-column-rule: 1px solid rgb(93, 99, 119);
+  -webkit-column-rule: 1px solid rgb(93, 99, 119);
+  column-rule: 1px solid rgb(93, 99, 119);
 }
 
 section {
   display: block;
   float: left;
   margin: 50px;
+}
+
+section#case4 nav#case4 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  font-size: 1em;
 }
 
 div#table table {
@@ -117,6 +138,7 @@ table th, table td {
 /* Footer Styles */
 
 footer {
+  clear: both;
   font-style: normal;
   font-size: 1em;
   color: black;
