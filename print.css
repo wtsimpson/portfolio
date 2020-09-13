@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* Hidden Objects */
+
+nav#horlist, footer#foot {
+    display: none;
+}
+
+ /* Page Box Styles */
+
+ @page {
+    size: 8.5in 11in;
+    margin: 0.5in;
+ }
+
+ /* Image Styles */
+
+ img {
+     width: 1in;
+ }
+
+ /* Typography Styles */
+ 
+ header h1 {
+    font-size: 24pt;
+    line-height: 26pt;
+ }
+ 
+ article {
+    font-size: 18pt;
+    line-height: 20pt;
+ }
+ 
+ p {
+    font-size: 12pt;
+    margin-top: 0.1in;
+    margin-bottom: 0.1in;
+ }
+ 
+ /* Page Break Styles */
+ 
+ ul, img {
+    page-break-inside: avoid;
+ }
+ 
+ p {
+    widows: 3;
+    orphans: 3;
+ }
+
+ /* Table Styles */
+
+ div#table table {
+    display: block;
+    clear: both;
+    border: 6px outset rgb(93, 99, 119);
+    border-collapse: collapse;
+    width: 48.5%;
+    font-size: 0.8em;
+  }
+  
+  table th, table td {
+    border: 1px solid rgb(182, 189, 212)
+  }

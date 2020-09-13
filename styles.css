@@ -120,6 +120,10 @@ section#case4 nav#case4 {
   font-size: 1em;
 }
 
+nav#case4 li a {
+  border: 1px solid rgb(182, 189, 212);
+}
+
 div#table table {
   display: block;
   margin: 50px 275px;
