@@ -17,7 +17,7 @@ body {
   height: 100%;   
   margin: 0px auto;
   min-width: 320px;
-  max-width: 1200px;   
+  max-width: 960px;   
   width: 100%;
   font-size: 1.2em;
 }
@@ -37,6 +37,10 @@ header > h1 {
 }
 
 /* Navigation Styles */
+
+nav {
+  font-size: 1.2em;
+}
 
  nav ul {
   list-style-type: none;
@@ -75,6 +79,53 @@ img {
   float: left;
   margin: 15px 25px;
   width: 130px;
+  transform: translate(20px, 20px);
+}
+
+/* Body Styles */
+
+article {
+  display: block;
+  float: right;
+  margin-top: 32px;
+  margin-right: 160px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+section {
+  display: block;
+  float: left;
+
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+
+  -moz-column-gap: 15px;
+  -webkit-column-gap: 15px;
+  column-gap: 15px;
+}
+
+div#table table {
+  display: block;
+  background: rgba(180, 180, 180, 0.3);
+  border: 6px outset rgb(93, 99, 119);
+  border-collapse: collapse;
+  font-size: 0.8em;
+}
+
+table th, table td {
+  border: 1px solid rgb(182, 189, 212)
 }
 
 /* Footer Styles */
+
+footer {
+  font-style: normal;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(240, 145, 57);
+}
