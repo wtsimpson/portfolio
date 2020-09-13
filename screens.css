@@ -11,9 +11,17 @@
 	
 @media only screen and (max-width: 480px) {
 
+    body {
+        font-size: 1.1em;
+    }
+
     article {
         -webkit-order: 96;
         order: 96;
+    }
+
+    section {
+        padding: 0% 30%;
     }
 
     section#list1 {
@@ -27,7 +35,6 @@
     }
  
     div#table > table {
-       width: 80%;
        -webkit-order: 99;
        order: 99;
     }
@@ -44,5 +51,9 @@
 */
 
 @media only screen and (min-width: 481px) {
+    
+}
+
+@media only screen and (min-width: 769px) {
 
 }
