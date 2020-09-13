@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 7
+   Case 4 Assignment
+
+   Millenium Computers Style Sheet
+   Author: Wesley Simpson
+   Date:   9/9/2020
+
+   Filename: mc_styles.css
+
+*/
+
+/* Logo Styles */
+
+img#logoimg {
+   -webkit-filter: opacity(0.6);
+   filter: opacity(0.6);
+   width: 100%;
+}
+
+/* Main Styles */
+
+html {
+   background: rgb(117, 116, 204);
+   height: 100%;
+}
+
+body {
+   background: rgba(250, 246, 170, 0.767);
+   height: 100%;
+   margin: 0px auto;
+   min-width: 320px;
+   max-width: 1020px;  
+   width: 100%;
+}
+

@@ -1,0 +1,40 @@
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 6
+   Case Problem 4
+
+   Schedule Table Style Sheet
+   Author: Wesley Simpson
+   Date:   9/6/2020
+
+   Filename:         hcc_schedule.css
+   Supporting Files: 
+
+*/
+
+/* Table Caption Styles */
+
+table.schedule caption {
+   text-align: center;
+   font-size: 1.2em;
+   margin: 8px;
+}
+
+/* Table Styles */
+
+table.schedule {
+   width: 100%;
+   border: 5px outset rgb(175, 175, 175);
+   border-collapse: separate;
+   background: rgb(160, 179, 190);
+}
+
+table.schedule tr {
+   height: 20px;
+}
+
+table.schedule th, table.schedule td {
+   border: 2px solid gray;
+   vertical-align: top;
+   padding: 0px;
+}
