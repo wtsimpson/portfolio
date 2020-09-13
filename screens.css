@@ -27,7 +27,8 @@
     }
  
     div#table > table {
-        -webkit-order: 99;
+       width: 80%;
+       -webkit-order: 99;
        order: 99;
     }
  
@@ -37,3 +38,11 @@
     }
  }
 
+/* ============================================
+	Tablet and Desktop Devices: 481px or more 
+   ============================================
+*/
+
+@media only screen and (min-width: 481px) {
+
+}
