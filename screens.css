@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* Import Styles Used On All Screens */
+
+@import url("styles.css");
+
+/* ===============================
+	Mobile Devices: 0 to 480px 
+   ===============================
+*/
+	
+@media only screen and (max-width: 480px) {
+
+    article {
+        -webkit-order: 96;
+        order: 96;
+    }
+
+    section#list1 {
+        -webkit-order: 97;
+        order: 97;
+    }
+
+    section#list2 {
+        -webkit-order: 98;
+        order: 98;
+    }
+ 
+    div#table > table {
+        -webkit-order: 99;
+       order: 99;
+    }
+ 
+    footer {
+       -webkit-order: 100;
+       order: 100;
+    }
+ }
+
