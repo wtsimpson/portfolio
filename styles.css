@@ -88,7 +88,7 @@ article {
   display: block;
   float: right;
   margin-top: 32px;
-  margin-right: 160px;
+  margin-right: 212px;
   border: 1px solid black;
   border-radius: 20px;
 }
@@ -101,9 +101,12 @@ section {
 
 div#table table {
   display: block;
+  margin: 50px 275px;
+  clear: both;
   background: rgba(180, 180, 180, 0.3);
   border: 6px outset rgb(93, 99, 119);
   border-collapse: collapse;
+  width: 48.5%;
   font-size: 0.8em;
 }
 
