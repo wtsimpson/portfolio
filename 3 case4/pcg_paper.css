@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Wesley Simpson
+   Date:   8/26/2020
+
+   Filename:         pcg_paper.css
+   Supporting Files: 
+
+*/
+
+/* Body Styles */
+
+body {
+   line-height: 1;
+}
+
+body, header, nav, p, footer {
+   display: block;
+}
+
+body, header, h1, h2, nav, ul, li, p, footer, address {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent; 
+}
+
+/* Navigation Styles */
+
+nav ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+body > header > h2 > nav a:link, body > header > nav:visited {
+   color: hsl(19, 70%, 30%);
+}
+
+body > header > h2 > nav a:hover, body > header > nav:active {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+body > aside > nav a:link, body > aside > nav:visited {
+   color: hsl(19, 70%, 30%);
+}
+
+body > aside > nav a:hover, body > aside > nav:active {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+body > header > h2 > nav a {
+   display: block;
+   text-align: center;
+   float: left;
+   font-size: 1em;
+   margin: 0.4em 0;
+   padding: 5px;
+   width: 8%;
+   background-color: rgba(7, 71, 16, 0.25);
+}
+
+body > aside > nav a {
+   font-size: 1em;
+   margin: 0.4em 0;
+   padding: 5px;
+   line-height: 0.5em;
+   clear: both;
+   content: "";
+   display: table;
+}
+
+/* Paragraph Styles */
+
+body > blockquote.story1, blockquote.story2, blockquote.story3 {
+   font-size: 1em;
+   color: hsl(19, 70%, 25%);
+   line-height: 1.1em;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+}
+
+aside.story4 {
+   font-size: 1em;
+   color: hsl(19, 70%, 25%);
+   line-height: 1.1em;
+   margin: 2%;
+}
+
+/* Main Colors */
+
+html {
+   background-color: blanchedalmond;
+}
+
+body {
+   color: hsl(19, 40%, 40%);
+}
+
+/* Footer Styles */
+
+footer {
+   color: hsl(19, 70%, 30%);
+   background-color: rgba(9, 53, 15, 0.35);
+   font-size: 0.9em;
+   padding: 10px 0px;
+   text-align: center;
+}
+
+footer a {
+   text-decoration: none;
+}
+
+/* Page Layout */
+
+html {
+   height: 100%;
+}
+
+body {
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   min-height: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgba(7, 71, 16, 0.25);
+}
+
+body > header > h1 > img {
+   display: block;
+   width: 100%;
+}
+
+body > header > h2 > nav > ul > li {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+body > img {
+   float: left;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+
