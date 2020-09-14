@@ -20,7 +20,7 @@
         order: 96;
     }
 
-    section {
+    section#list1, section#list2 {
         padding: 0% 30%;
     }
 
