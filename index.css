@@ -5,18 +5,24 @@
 img {
     display: block;
     float: left;
-    margin: 15px 25px;
+    margin: 38px 30px;
     width: 130px;
   }
   
 /* Text Styles */
 
+p#intro {
+    display: block;
+    float: left;
+    margin-top: 5%;
+    width: 50%;
+}
+
 article#home {
     display: block;
-    float: right;
-    margin-top: 32px;
+    float: left;
+    margin-top: 5%;
     width: 50%;
-    margin-right: 23%;
     border: 1px solid black;
     border-radius: 20px;
     
@@ -34,3 +40,9 @@ article#home {
   }
 
 /* Video Styles */
+
+video {
+    display: block;
+    float: right;
+    width: 175px;
+}
