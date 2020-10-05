@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* Section Styles */
+
+section#case4 nav#case4 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    font-size: 1em;
+  }
+  
+  nav#case4 li a {
+    border: 1px solid rgb(182, 189, 212);
+  }
+  
