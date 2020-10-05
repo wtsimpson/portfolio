@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* Section Styles */
+
+section {
+    display: block;
+    float: left;
+    margin: 5%;
+  }
+
+  /* Table Styles */
+
+div#table table {
+    display: block;
+    margin: 10% 28%;
+    clear: both;
+    background: rgba(180, 180, 180, 0.3);
+    border: 6px outset rgb(93, 99, 119);
+    border-collapse: collapse;
+    width: 48.5%;
+    font-size: 0.8em;
+  }
+  
+  table th, table td {
+    border: 1px solid rgb(182, 189, 212)
+  }
+  

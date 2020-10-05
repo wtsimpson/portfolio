@@ -14,3 +14,9 @@ section#case4 nav#case4 {
     border: 1px solid rgb(182, 189, 212);
   }
   
+  
+  section {
+    display: block;
+    float: left;
+    margin: 5%;
+  }
