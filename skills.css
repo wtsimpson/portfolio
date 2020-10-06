@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* List Styles */
+
+section#list3 {
+    display: block;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 23.5%;
+    margin-right: 5%;
+}
+
+section#list4 {
+    display: block;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
