@@ -2,17 +2,22 @@
 
 /* Section Styles */
 
-section {
+section#list1 {
     display: block;
     float: left;
-    margin: 5%;
+    margin: 5% 18%;
+  }
+  section#list2 {
+    display: block;
+    float: left;
+    margin: 5% 0%;
   }
 
   /* Table Styles */
 
 div#table table {
     display: block;
-    margin: 10% 28%;
+    margin: 10% 26%;
     clear: both;
     background: rgba(180, 180, 180, 0.3);
     border: 6px outset rgb(93, 99, 119);
