@@ -5,7 +5,7 @@
 img {
     display: block;
     float: left;
-    margin: 38px 30px;
+    margin: 4%;
     width: 130px;
   }
   
@@ -39,10 +39,15 @@ article#home {
     column-rule: 1px solid rgb(93, 99, 119);
   }
 
+  article#home > p {
+      margin: 2px;
+  }
+
 /* Video Styles */
 
 video {
     display: block;
     float: right;
     width: 175px;
+    margin: 4%;
 }
