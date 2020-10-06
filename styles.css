@@ -5,7 +5,10 @@
 /* Main Styles */
 
 html {
-  background: url(Background.png) 100% / cover no-repeat;
+  background-image: url(Background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 body {
