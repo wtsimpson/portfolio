@@ -2,19 +2,18 @@
 
 /* Section Styles */
 
-section#case4 nav#case4 {
+section#case4 {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
-    font-size: 1em;
+    font-size: 0.9em;
   }
   
-  nav#case4 li a {
+  nav#case4 li a{
     border: 1px solid rgb(182, 189, 212);
   }
-  
-  
+
   section {
     display: block;
     float: left;
