@@ -39,8 +39,8 @@ article#home {
     column-rule: 1px solid rgb(93, 99, 119);
   }
 
-  article#home > p {
-      margin: 2px;
+  article#home p {
+      margin: 10px 15px;
   }
 
 /* Video Styles */
