@@ -67,10 +67,22 @@ div#table > table {
    order: 99;
 }   
 
+/* Skills/Services Styles */
+
+section#list4 {
+    padding-left: 18.5%;
+}
+
 /* My Work Styles */
 
 nav#case4 li {
     width: 100%;
+}
+
+/* Contact Me Styles */
+
+fieldset#radio {
+    width: 70%;
 }
 
 }

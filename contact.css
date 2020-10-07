@@ -44,6 +44,6 @@ input#textBox {
 
 fieldset#submit {
     float: left;
-    margin: 1% 41.98% 0%;
+    margin: 1% 41.98%;
     clear: both;
 }
