@@ -17,15 +17,6 @@ header {
     font-size: 0.65em;
 }
 
-nav#horlist {
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-flow: row nowrap;
-        flex-flow: row nowrap;
-        justify-content: center;
-        align-items: center;
-}
-
 body {
     background: 100%;
     font-size: 1.1em;
@@ -38,16 +29,18 @@ footer {
 
 /* Home Styles */
 
-article {
+p#intro {
+    font-size: 1.2em;
+}
+
+article#home {
     -webkit-order: 96;
     order: 96;
 }
 
-/* About Me Styles */
 
-section#list1, section#list2 {
-    padding: 0% 30%;
-}
+
+/* About Me Styles */
 
 section#list1 {
     -webkit-order: 97;
@@ -62,6 +55,7 @@ section#list2 {
 div#table > table {
    -webkit-order: 99;
    order: 99;
+   width: 120%;
 }   
 
 }

@@ -62,3 +62,9 @@ nav#horlist, footer#foot {
   table th, table td {
     border: 1px solid rgb(182, 189, 212)
   }
+
+  /* Skills/Services Styles */
+
+  section#list3, section#list4 {
+    margin: 5%;
+  }
