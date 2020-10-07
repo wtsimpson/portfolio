@@ -13,7 +13,21 @@
 
 /* All Styles */
 
+header {
+    font-size: 0.65em;
+}
+
+nav#horlist {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+}
+
 body {
+    background: 100%;
     font-size: 1.1em;
 }
 
