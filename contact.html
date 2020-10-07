@@ -26,7 +26,36 @@
     </nav>
   </header>
 
- 
+  <form action="http//www.example.com" method="post">
+    <fieldset id="ceckBox">
+      <lable for="checkBox">Was your experience good? (check for yes, blank for no)</lable>
+      <input name="checkBox" id="checkBox" type="checkbox" value="yes" />
+    </fieldset>
+    <fieldset id="radio">
+      <label for="radio">Rate your experience (1,2,3,4,5)</label>
+      <input name="radio" id="radio" type="radio" value="1" />
+      <input name="radio" id="radio" type="radio" value="2" />
+      <input name="radio" id="radio" type="radio" value="3" />
+      <input name="radio" id="radio" type="radio" value="4" />
+      <input name="radio" id="radio" type="radio" value="5" />
+    </fieldset>
+    <fieldset id="selection">
+      <label for="selection">Would you share with a friend?</label>
+      <select name="selection" id="selection">
+        <option>--Select--</option>
+        <option>Of Course!</option>
+        <option>Maybe</option>
+        <option>Meh..</option>
+      </select>
+    </fieldset>
+    <fieldset id="textBox">
+      <label for="textBox">Thoughts, Comments, Suggestions?</label>
+      <input name="textBox" id="textBox" type="text" />
+    </fieldset>
+    <fieldset id="submit">
+      <input type="submit" value="Submit" />
+    </fieldset>
+  </form>
 
 </body>
 

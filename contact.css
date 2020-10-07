@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* Checkbox Styles */
+
+fieldset {
+    border: none;
+}
+
+fieldset#checkBox {
+    float: left;
+    margin: 1%;
+    clear: both;
+}
+
+/* Option Button Styles */
+
+fieldset#radio {
+    float: left;
+    margin: 1%;
+    clear: both;
+}
+
+/* Selection Styles */
+
+fieldset#selection {
+    float: left;
+    margin: 1%;
+    clear: both;
+}
+
+/* Textbox Style */
+
+fieldset#textBox {
+    float: left;
+    margin: 1%;
+    clear: both;
+}
+
+input#textBox {
+    size: 40%
+}
+
+/* Button Styles */
+
+fieldset#submit {
+    float: left;
+    margin: 1% 41.98% 0%;
+    clear: both;
+}

@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background: rgba(180, 180, 180, 0.4);
+  background: rgba(180, 180, 180, 0.5);
   box-shadow: hsl(0, 0%, 55%) 5px 0px 15px,  hsl(0, 0%, 55%) -5px 0px 15px;
   border-left: 1px solid rgb(0, 0, 0);
   border-right: 1px solid rgb(0, 0, 0);  
