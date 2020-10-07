@@ -97,9 +97,13 @@ fieldset#radio {
     section#list1, section#list2 {
         margin: 5% 2%;
     }
-    
-    a#navicon {
-        display: none;
+
+    nav#horlist li {
+        width: 50%;
+    }
+
+    nav#case4 li {
+        width: 100%;
     }
 
 }
@@ -109,8 +113,12 @@ fieldset#radio {
         margin: 5%;
     }
 
-    a#navicon {
-        display: none;
+    nav#horlist li {
+        width:16.66%;
+    }
+
+    nav#case4 li {
+        width: 16.66%;
     }
 
 }
