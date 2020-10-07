@@ -3,7 +3,7 @@
 /* Paragraph Styles */
 
 p {
-  margin: 2%;
+  margin: 4%;
 }
 
 /* Section Styles */
@@ -23,12 +23,12 @@ section#list1 {
 
 div#table table {
     display: block;
-    margin: 5% 26%;
+    margin: 5% 24%;
     clear: both;
     background: rgba(180, 180, 180, 0.3);
     border: 6px outset rgb(93, 99, 119);
     border-collapse: collapse;
-    width: 48.5%;
+    width: 50%;
     font-size: 0.8em;
   }
   

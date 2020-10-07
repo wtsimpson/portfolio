@@ -33,13 +33,19 @@ footer {
 
 /* Home Styles */
 
+img#me {
+    display: none;
+}
+
 p#intro {
     font-size: 1.2em;
+    margin-left: 27%;
 }
 
 article#home {
     -webkit-order: 96;
     order: 96;
+    margin-left: 25%;
 }
 
 /* About Me Styles */
@@ -47,17 +53,18 @@ article#home {
 section#list1 {
     -webkit-order: 97;
     order: 97;
+    margin-left: 120%;
 }
 
 section#list2 {
     -webkit-order: 98;
     order: 98;
+    padding-left: 17%;
 }
 
 div#table > table {
    -webkit-order: 99;
    order: 99;
-   width: 120%;
 }   
 
 /* My Work Styles */
@@ -79,10 +86,19 @@ nav#case4 li {
         margin: 5% 2%;
     }
     
+    a#navicon {
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width: 769px) {
     section#list1, section#list2 {
         margin: 5%;
     }
+
+    a#navicon {
+        display: none;
+    }
+
 }
