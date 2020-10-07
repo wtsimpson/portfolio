@@ -11,39 +11,46 @@
 	
 @media only screen and (max-width: 480px) {
 
-    body {
-        font-size: 1.1em;
-    }
+/* All Styles */
 
-    article {
-        -webkit-order: 96;
-        order: 96;
-    }
+body {
+    font-size: 1.1em;
+}
 
-    section#list1, section#list2 {
-        padding: 0% 30%;
-    }
-
-    section#list1 {
-        -webkit-order: 97;
-        order: 97;
-    }
-
-    section#list2 {
-        -webkit-order: 98;
-        order: 98;
-    }
- 
-    div#table > table {
-       -webkit-order: 99;
-       order: 99;
-    }
- 
-    footer {
-       -webkit-order: 100;
-       order: 100;
-    }
+footer {
+    -webkit-order: 100;
+    order: 100;
  }
+
+/* Home Styles */
+
+article {
+    -webkit-order: 96;
+    order: 96;
+}
+
+/* About Me Styles */
+
+section#list1, section#list2 {
+    padding: 0% 30%;
+}
+
+section#list1 {
+    -webkit-order: 97;
+    order: 97;
+}
+
+section#list2 {
+    -webkit-order: 98;
+    order: 98;
+}
+
+div#table > table {
+   -webkit-order: 99;
+   order: 99;
+}   
+
+}
 
 /* ============================================
 	Tablet and Desktop Devices: 481px or more 
