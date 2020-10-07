@@ -9,10 +9,6 @@ section#case4 {
     flex-flow: row wrap;
     font-size: 0.9em;
   }
-  
-  nav#case4 li a{
-    border: 1px solid rgb(182, 189, 212);
-  }
 
   section {
     display: block;
